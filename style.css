@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #008cba;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.about, .services {
+    background: #fff;
+    margin: 20px 0;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.about p, .services ul {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.services ul {
+    list-style: none;
+}
+
+.services li {
+    margin: 10px 0;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
